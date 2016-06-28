@@ -4,6 +4,7 @@ Template Name: Full Width
 */
 get_header();
 ?>
+<?php get_sidebar('full-width'); ?>
     <div id="primary-full" class="content-area">
         <main id="main" class="site-main" role="main">
 <?php

@@ -86,18 +86,25 @@ add_filter('wp_get_attachment_image_attributes', 'silencio_post_thumbnail_sizes_
 function silencio_scripts() {
     if (!is_admin() && defined('VIA_ENVIRONMENT') && VIA_ENVIRONMENT == 'dev') {
         wp_deregister_script('jquery');
-        wp_register_script('jquery', get_template_directory_uri() . '/res/components/jquery/dist/jquery.js', false, '2.1.4', true);
+        wp_register_script('jquery', get_template_directory_uri() . '/bower_components/jquery/dist/jquery.js', false, '2.1.4', true);
         wp_enqueue_script('jquery');
 
+        wp_enqueue_script('jqueryUI', get_template_directory_uri() . '/bower_components/jquery-ui/jquery-ui.js', array('jquery'), false, true);
+
         // JS
-        wp_enqueue_script('bootstrap', get_template_directory_uri() . '/res/components/bootstrap/dist/js/bootstrap.js', array('jquery'), false, true);
-        wp_enqueue_script('fitvids', get_template_directory_uri() . '/res/components/fitvids/jquery.fitvids.js', array('jquery'), false, true);
-        wp_enqueue_script('picturefill', get_template_directory_uri() . '/res/components/picturefill/dist/picturefill.js', false, true);
+        wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'), false, true);
+        wp_enqueue_script('fitvids', get_template_directory_uri() . '/bower_components/fitvids/jquery.fitvids.js', array('jquery'), false, true);
+        wp_enqueue_script('picturefill', get_template_directory_uri() . '/bower_components/picturefill/dist/picturefill.js', false, true);
+        wp_enqueue_script('slick-js', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick.js', false, true);
 
         // CSS
-        wp_enqueue_style('bootstrap', get_template_directory_uri() . '/res/components/bootstrap/dist/css/bootstrap.css', array());
-        wp_enqueue_style('font-awesome', get_template_directory_uri() . '/res/components/font-awesome/css/font-awesome.css', array());
+        wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.css', array());
+        wp_enqueue_style('font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.css', array());
         wp_enqueue_style('typography', get_template_directory_uri() . '/res/css/typography.css', array());
+        wp_enqueue_style('jquery-ui', get_template_directory_uri() . '/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.css',[]);
+        wp_enqueue_style('slick-css', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick.css',[]);
+        wp_enqueue_style('slick-theme-css', get_template_directory_uri() . '/bower_components/slick-carousel/slick/slick-theme.css',[]);
+        wp_enqueue_style('cabins', get_template_directory_uri() . '/res/css/cabins.css',[]);
         wp_enqueue_style('layout', get_template_directory_uri() . '/res/css/layout.css', array());
     }
 
@@ -181,6 +188,15 @@ function silencio_widgets_init() {
     register_sidebar(array(
         'name' => __('Footer Sidebar', 'silencio'),
         'id' => 'footer-sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+    ));
+
+    register_sidebar(array(
+        'name' => __('Full Sidebar', 'silencio'),
+        'id' => 'full-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget' => "</aside>",
         'before_title' => '<h3 class="widget-title">',

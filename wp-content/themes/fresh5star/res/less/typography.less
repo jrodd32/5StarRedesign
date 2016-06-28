@@ -21,21 +21,29 @@ body {
 }
 
 body, button, input, select, textarea {
-    color: @black;
+    color: @font;
     font-family: @copy;
     line-height: 1.5;
 }
 
 hr {
-    background-color: @grey;
+    background-color: @primary;
     border: 0;
-    height: 1px;
-    margin-bottom: 1.5em;
+    height: 6px;
+    margin: 1.5em 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: @heading;
     margin-top: 0;
+}
+
+h1, h2, h3 {
+    color: @font;
+}
+
+h4, h5, h6 {
+    color: @secondary;
 }
 
 h1 {
@@ -47,7 +55,7 @@ h1 {
         line-height: 1.125;
     });
     .respond(@screen-md, {
-        font-size: 3em;
+        font-size: 2.9em;
         line-height: 1.05;
     });
 }
@@ -171,7 +179,7 @@ big {
 }
 
 figure {
-    margin: 0;
+    margin: 0 0 1em 0;
 }
 
 table {
@@ -331,20 +339,6 @@ img.wp-smiley {
 
 .wp-caption .wp-caption-text {
     margin: 0.8075em 0;
-}
-
-.site-content .gallery {
-    margin-bottom: 1.5em;
-}
-
-.site-content .gallery a img {
-    border: none;
-    height: auto;
-    max-width: 90%;
-}
-
-.site-content .gallery dd {
-    margin: 0;
 }
 
 embed, iframe, object {

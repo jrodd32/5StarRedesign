@@ -1,5 +1,6 @@
 <?php
 get_header();
+get_sidebar('page');
 ?>
 
     <div id="primary" class="content-area">
@@ -15,5 +16,4 @@ while (have_posts()) {
     </div><!-- #primary -->
 
 <?php
-get_sidebar('page');
 get_footer();

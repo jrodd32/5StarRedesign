@@ -1,0 +1,112 @@
+/* Comments
+----------------------------------------------- */
+#content ol.commentlist {
+  list-style: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+#content ol.commentlist li {
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  margin: 0 0 24px 0;
+  padding: 0 0 16px;
+}
+#content ol.commentlist li footer {
+  clear: both;
+}
+#content ol.commentlist li .avatar {
+  border: 1px solid #fff;
+  float: left;
+  margin: 0 8px 8px 0;
+}
+#content ol.commentlist li cite {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+}
+#content ol.commentlist li .comment-meta a {
+  color: #000;
+  display: block;
+  font-size: .75em;
+  margin: 0 0 10px 0;
+}
+#content ol.commentlist li .children {
+  list-style: none;
+  margin-top: 10px;
+}
+#respond {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0 auto 20px;
+  padding: 4%;
+  position: relative;
+  width: 92%;
+}
+#respond input[type="text"],
+#respond textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+#respond .comment-form-author,
+#respond .comment-form-email,
+#respond .comment-form-url,
+#respond .comment-form-comment {
+  position: relative;
+}
+#respond .comment-form-author label,
+#respond .comment-form-email label,
+#respond .comment-form-url label,
+#respond .comment-form-comment label {
+  color: #000;
+  display: block;
+}
+#respond .comment-form-author .required,
+#respond .comment-form-email .required {
+  color: blue;
+  font-weight: bold;
+}
+#respond p {
+  margin: 10px 0;
+}
+#respond #cancel-comment-reply-link {
+  color: blue;
+  text-decoration: none;
+}
+#respond .logged-in-as a:hover,
+#respond #cancel-comment-reply-link:hover {
+  text-decoration: underline;
+}
+#respond label {
+  line-height: 2.2em;
+}
+#respond input[type=text] {
+  display: block;
+  height: 24px;
+  width: 75%;
+}
+#respond p {
+  font-size: 12px;
+}
+.commentlist #respond {
+  margin: 1.625em 0 0;
+  width: auto;
+}
+#reply-title {
+  color: red;
+  font-weight: bold;
+}
+#cancel-comment-reply-link {
+  color: blue;
+  display: block;
+}
+#cancel-comment-reply-link:focus,
+#cancel-comment-reply-link:active,
+#cancel-comment-reply-link:hover {
+  color: blue;
+}
+p.comment-form-comment {
+  margin: 0;
+}
+.form-allowed-tags {
+  display: none;
+}

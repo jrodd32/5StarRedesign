@@ -9,6 +9,7 @@
     "fitvids": "~1.1.0",
     "respond": "~1.4.2",
     "font-awesome": "~4.4.0",
-    "picturefill": "~3.0.1"
+    "picturefill": "~3.0.1",
+    "slick-carousel": "^1.6.0"
   }
 }

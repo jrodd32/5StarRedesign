@@ -1,4 +1,3 @@
-/*global module:false*/
 module.exports = function (grunt) {
     // Project configuration
     grunt.initConfig({
@@ -8,16 +7,18 @@ module.exports = function (grunt) {
         uglify: {
             build: {
                 src: [
-                    'res/components/jquery/dist/jquery.js',
-                    'res/components/bootstrap/dist/js/bootstrap.js',
-                    'res/components/fitvids/jquery.fitvids.js',
-                    'res/components/picturefill/dist/picturefill.js',
+                    'bower_components/jquery/dist/jquery.js',
+                    'bower_components/jquery-ui/jquery-ui.js',
+                    'bower_components/bootstrap/dist/js/bootstrap.js',
+                    'bower_components/fitvids/jquery.fitvids.js',
+                    'bower_components/picturefill/dist/picturefill.js',
+                    'bower_components/slick-carousel/slick/slick.js',
                     'res/js/global.js'
                 ],
                 dest: 'res/build/global.min.js'
             },
             respond: {
-                src: ['res/components/respond/dest/respond.src.js'],
+                src: ['res/bower_components/respond/dest/respond.src.js'],
                 dest: 'res/build/respond.min.js'
             }
         },
@@ -26,10 +27,14 @@ module.exports = function (grunt) {
         cssmin: {
             build: {
                 src: [
-                    'res/components/bootstrap/dist/css/bootstrap.css',
-                    'res/components/font-awesome/css/font-awesome.css',
+                    'bower_components/bootstrap/dist/css/bootstrap.css',
+                    'bower_components/font-awesome/css/font-awesome.css',
+                    'bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.css',
+                    'bower_components/slick-carousel/slick/slick.css',
+                    'bower_components/slick-carousel/slick/slick-theme.css',
                     'res/css/typography.css',
-                    'res/css/layout.css'
+                    'res/css/layout.css',
+                    'res/css/cabins.css'
                 ],
                 dest: 'res/build/global.min.css'
             }

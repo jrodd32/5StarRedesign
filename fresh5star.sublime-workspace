@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"toggl",
+				"toggleClass"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"get_tem",
+				"get_template_directory"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_style"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"bo",
+				"bower_components"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"rb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"jquery",
+				"jquery-ui"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 168.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 365.0
+	},
+	"console":
+	{
+		"height": 173.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/footer.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/less/layout.less",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/js/global.js",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/Gruntfile.js",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/functions.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/build/global.min.css",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/index.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/template-full_width.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/sidebar-full-width.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-config.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-config-local.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/bower_components/bootstrap/less/grid.less",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/less/typography.less",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/less/lib/variables.less",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/header.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/sftp-config.json",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/cabin-ParentPage.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/cabin.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-includes/functions.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/res/build/global.min.js",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/wp-config.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/content-page.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/front-page.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/archive.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/plugins/awesome-weather/awesome-weather.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/page.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/single.php",
+		"/Users/JRodd32/Desktop/Sites/5star/wp-content/themes/New5Star/page.php",
+		"/Users/JRodd32/Desktop/Sites/5star/wp-content/themes/New5Star/single.php",
+		"/Users/JRodd32/Desktop/Sites/5star/wp-content/themes/New5Star/interior.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-includes/theme-compat/header.php",
+		"/Users/JRodd32/Desktop/Sites/5star/wp-content/themes/New5Star/footer.php",
+		"/Users/JRodd32/Desktop/Sites/5starRedesign/wp-content/themes/fresh5star/style.css",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/less/layout.less",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/less/typography.less",
+		"/Users/JRodd32/Desktop/Sites/mwux16/sftp-config.json",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/footer.php",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/js/global.js",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/build/global.min.css",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/header.php",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/template-history.php",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/venues-info.php",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/less/lib/variables.less",
+		"/Users/JRodd32/Desktop/Sites/mwux16/wp-includes/template.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/JRodd32/Desktop/Sites/5starRedesign",
+			"/Users/JRodd32/Desktop/Sites/mwux16/wp-content/themes/Silencio/res/less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sidebar",
+			"sideba",
+			"make-ro",
+			"staff",
+			".container",
+			"open-sans-css",
+			"fonts.goo",
+			"primary",
+			"hr",
+			"secondary",
+			"aside",
+			"content",
+			"search",
+			"nav-container",
+			"make",
+			"container",
+			"widget",
+			"footer",
+			"push",
+			"clearfix",
+			"backgrounD:",
+			"components",
+			"theme",
+			".blog",
+			"https",
+			"button",
+			"pull",
+			"push",
+			"@light",
+			"history",
+			"venues",
+			"@light",
+			".map"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "",
+	"project": "fresh5star.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fu",
+				"5starRedesign/wp-content/themes/fresh5star/functions.php"
+			],
+			[
+				"grunt",
+				"5starRedesign/wp-content/themes/fresh5star/Gruntfile.js"
+			],
+			[
+				"func",
+				"5starRedesign/wp-content/themes/fresh5star/functions.php"
+			],
+			[
+				"header",
+				"5starRedesign/wp-content/themes/fresh5star/header.php"
+			],
+			[
+				"content-page",
+				"5starRedesign/wp-content/themes/fresh5star/content-page.php"
+			],
+			[
+				"front",
+				"5starRedesign/wp-content/themes/fresh5star/front-page.php"
+			],
+			[
+				"footer",
+				"5starRedesign/wp-content/themes/fresh5star/footer.php"
+			],
+			[
+				"typ",
+				"5starRedesign/wp-content/themes/fresh5star/res/less/typography.less"
+			],
+			[
+				"grid",
+				"5starRedesign/wp-content/themes/fresh5star/bower_components/bootstrap/less/grid.less"
+			],
+			[
+				"variab",
+				"5starRedesign/wp-content/themes/fresh5star/res/less/lib/variables.less"
+			],
+			[
+				"layou",
+				"5starRedesign/wp-content/themes/fresh5star/res/less/layout.less"
+			],
+			[
+				"wp-con",
+				"wp-config.php"
+			],
+			[
+				"function",
+				"wp-content/themes/fresh5star/functions.php"
+			],
+			[
+				"typo",
+				"wp-content/themes/Silencio/res/less/typography.less"
+			],
+			[
+				"glo",
+				"wp-content/themes/Silencio/res/js/global.js"
+			],
+			[
+				"temp",
+				"wp-content/themes/Silencio/template-history.php"
+			],
+			[
+				"ven",
+				"wp-content/themes/Silencio/venues-info.php"
+			],
+			[
+				"layout",
+				"wp-content/themes/Silencio/res/less/layout.less"
+			],
+			[
+				"/res/var",
+				"wp-content/themes/Silencio/res/less/lib/variables.less"
+			],
+			[
+				"res/var",
+				"wp-content/themes/Silencio/res/less/lib/variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

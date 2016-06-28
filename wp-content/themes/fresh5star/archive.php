@@ -1,5 +1,6 @@
 <?php
 get_header();
+get_sidebar('post');
 ?>
 
     <section id="primary" class="content-area">
@@ -70,5 +71,4 @@ if (have_posts()) {
     </section><!-- #primary -->
 
 <?php
-get_sidebar('post');
 get_footer();
